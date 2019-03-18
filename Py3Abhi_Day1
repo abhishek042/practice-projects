@@ -1,0 +1,46 @@
+#what ww are doing is adding a idk
+print(float('4.3')-45)
+a=12
+print(a)
+print(1+20)
+print(4*40)
+#declaring is super easy no int float cahr bullshitt 
+vard='hiiiiiiiiiiiiiiiiiiiiiii'
+#varibale can include function
+variable=print(vard)
+variable
+#below thig is called unpacking
+x,y=(3,5)
+#unpoacks py list of favrable  x ko 3 and y ko 5
+print(x)
+print(y)
+#must unpack same amount of varibel ie. same number on both sides 2 varible 2 value  
+
+#whileloof
+condition =1
+while condition < 10:
+    print(condition)
+    condition +=1
+    #this adda 1 to condition same as condition = conditoin+1 if you use this you are old af
+    
+#while true makes infinaye loop
+#meh its a boolen boi
+#adding a # to stop infinite loop                    
+#while True:
+    print('doing stuff')
+#for loop
+#used for uncertain time frame and stuff like that
+#dammit use whitch you like    
+#irritating through a list
+    
+examplelist =[1,2,3,35,6,346,456,6,4564,6,4,2,3432]
+for eachnumber in examplelist:
+    print(eachnumber)
+#can also use like this
+for i in examplelist:
+    print(i)
+#noww range function built in no need to import 
+#range(1,100) cycles thorugh num from 1 to 99 and can be usedd in for loof
+    
+for eachnumber in range(1,100):
+    print(eachnumber)
