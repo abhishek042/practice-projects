@@ -1,8 +1,0 @@
-
-public class greatest_of_three {
-	public static void main (String[] args)
-	{
-		System.out.println("program to find greatest of 3 number");
-	}
-
-}
