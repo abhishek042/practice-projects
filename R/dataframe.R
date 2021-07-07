@@ -1,21 +1,31 @@
-print("to create a data frame and put data for 5 employees " )
-
-Emp = data.frame(Name=c("Abhishek","Obama","MODI", "JETHALAL","Babaramdev"),
+#Q2
+Std = data.frame(Name=c("Abhishek","Obama","MODI", "JETHALAL","Babaramdev"),
                  Gender=c("M","M","M","M","M"),
-                 Age=c(20,50,65,26,99),
-                 Designation=c("student","EX-president","president","CEO-gadaelectronics","YOGA-Guru"),
-                 ROLL=c("2346","1779","5433","1987","6576"),
+                 MARKS=c(20,18,17,26,99),
+                 UID=c("2346","1779","5433","1987","6576"),
                  PHONE=c("2323525","5235","23523","235","2352")
 )
-print("Details of the employees:")                      
-print(Emp)
-nrow(Emp)
-ncol(Emp)
-remp<-rbind(Emp,Emp)
-cemp<-cbind(Emp,Emp)
-remp 
-cemp
-head(remp,2)
-tail(cemp,2)
-str(Emp)
-summary(E)
+print("Details of the Std:")                      
+print(Std)
+
+newStd = data.frame(Name=c("jonny"),
+                 Gender=c("M"),
+                 MARKS=c(21),
+                 UID=c("1827"),
+                 PHONE=c("23235"))
+
+Std =  rbind(Std, newStd)
+print("After adding new row(s) to an existing data frame:")
+print(Std)
+
+
+#list of marks dataframe
+list =data.frame( marks=c(2, 40, 2,NA, 502, 177, 7, 9,45,17)) 
+#calculating mean and ignoring NA
+mean(list$marks, na.rm = TRUE)
+
+v <- 1:10
+print("Original vector:")
+print(v)
+n <- v[7,3,9]
+print(n)
