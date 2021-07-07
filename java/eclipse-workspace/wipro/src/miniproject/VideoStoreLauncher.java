@@ -18,6 +18,7 @@ public class VideoStoreLauncher  {
 		store.returnVedio("Vid1");
 		store.checkOut("Vid3");
 		store.returnVedio("Vid3");
+		store.listInventory();
 		
 		
 

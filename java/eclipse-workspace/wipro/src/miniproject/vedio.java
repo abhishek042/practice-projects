@@ -45,5 +45,10 @@ public class vedio {
 	{
 		return rating;
 	}
+	
+	int getflag()
+	{
+		return flag;
+	}
 
 }

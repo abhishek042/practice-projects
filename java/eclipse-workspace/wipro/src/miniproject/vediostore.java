@@ -42,7 +42,7 @@ public class vediostore  {
 			}
 			else if (x.title==title)
 			{
-				System.out.println("Vedio was already in store");
+				System.out.println("Vedio "+x.title+" was already in store");
 				break;
 			}
 		}
@@ -66,7 +66,10 @@ public class vediostore  {
 		System.out.println("-----------------");
 		for(int i=0;i<list.size();i++)
 		{
+			if(list.get(i).getflag()==0||list.get(i).getflag()==-1)
+			{
 			System.out.println(list.get(i).gettitle()+"    "+list.get(i).getrating());
+			}
 		}
 		System.out.println("-----------------");
 		
